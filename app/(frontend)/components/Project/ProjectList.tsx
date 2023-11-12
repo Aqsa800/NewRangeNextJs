@@ -31,8 +31,20 @@ function ProjectList() {
   });
   const [mapRef, setMapRef] = useState();
   const [isOpen, setIsOpen] = useState(false);
-  const [infoWindowData, setInfoWindowData] = useState();
-  const markers = homeData?.mapProjects;
+  const [infoWindowData, setInfoWindowData] = useState({
+    id: null,
+    address: "",
+    name: "",
+    area: "",
+    bedrooms: "",
+    bathrooms: "",
+    price: "",
+    property_banner: "",
+    slug: "",
+  });
+  const [markers, setMarkers] = useState([]);
+  const centerRef = useRef({ lat: 25.2048, lng: 55.2708 });
+
   const [minMaxPrice, setMinMaxPrice] = useState({
     minPrice: 0,
     maxPrice: 0,
@@ -41,6 +53,11 @@ function ProjectList() {
   const minPriceRef = useRef(null);
   const maxPriceRef = useRef(null);
 
+  useEffect(() => {
+    if (homeData?.mapProjects) {
+      setMarkers(JSON.parse(homeData?.mapProjects));
+    }
+  }, [homeData]);
   const handleApplyPrice = () => {
     setMinMaxPrice({
       minPrice: minPriceRef.current.value,
@@ -81,6 +98,7 @@ function ProjectList() {
       bathrooms,
       price,
       property_banner,
+      slug,
     });
     setIsOpen(true);
   };
@@ -223,8 +241,10 @@ function ProjectList() {
                     mapContainerClassName="map-container"
                     onLoad={onMapLoad}
                     onClick={() => setIsOpen(false)}
+                    center={centerRef.current}
+                    zoom={10}
                   >
-                    {markers.map(
+                    {markers?.map(
                       (
                         {
                           address,
@@ -241,62 +261,64 @@ function ProjectList() {
                         ind
                       ) => (
                         <MarkerF
-                        key={ind}
-                        position={{ lat, lng }}
-                        onClick={() => {
-                          handleMarkerClick(
-                            ind,
-                            lat,
-                            lng,
-                            address,
-                            name,
-                            area,
-                            bedrooms,
-                            bathrooms,
-                            price,
-                            property_banner,
-                            slug
-                          );
-                        }}
-                      >
-                          <OverlayView
+                          key={ind}
                           position={{ lat, lng }}
-                          mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}
+                          onClick={() => {
+                            handleMarkerClick(
+                              ind,
+                              lat,
+                              lng,
+                              address,
+                              name,
+                              area,
+                              bedrooms,
+                              bathrooms,
+                              price,
+                              property_banner,
+                              slug
+                            );
+                          }}
                         >
-                          <div
-                            style={{
-                              backgroundColor: "white",
-                              padding: "5px",
-                              border: "1px solid #ccc",
-                              boxShadow: "0 2px 6px rgba(0, 0, 0, 0.3)",
-                              borderRadius: "4px",
-                              minWidth: "50px", // Set a minimum width
-                              whiteSpace: "nowrap", // Rounded corners
-                            }}
+                          <OverlayView
+                            position={{ lat, lng }}
+                            mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}
                           >
-                            {price}
-                          </div>
-                        </OverlayView>
-                        {isOpen && infoWindowData?.id === ind && (
-                          <InfoWindow
-                            onCloseClick={() => {
-                              setIsOpen(false);
-                            }}
-                          >
-                            <div>
-                              <Property
-                                slug={infoWindowData.slug}
-                                area={infoWindowData.area}
-                                bathrooms={infoWindowData.bathrooms}
-                                bedrooms={infoWindowData.bedrooms}
-                                price={infoWindowData.price}
-                                address={infoWindowData.address}
-                                property_banner={infoWindowData.property_banner}
-                                name={infoWindowData.name}
-                              />
+                            <div
+                              style={{
+                                backgroundColor: "white",
+                                padding: "5px",
+                                border: "1px solid #ccc",
+                                boxShadow: "0 2px 6px rgba(0, 0, 0, 0.3)",
+                                borderRadius: "4px",
+                                minWidth: "50px", // Set a minimum width
+                                whiteSpace: "nowrap", // Rounded corners
+                              }}
+                            >
+                              {price}
                             </div>
-                          </InfoWindow>
-                        )}
+                          </OverlayView>
+                          {isOpen && infoWindowData?.id === ind && (
+                            <InfoWindow
+                              onCloseClick={() => {
+                                setIsOpen(false);
+                              }}
+                            >
+                              <div>
+                                <Property
+                                  slug={infoWindowData.slug}
+                                  area={infoWindowData.area}
+                                  bathrooms={infoWindowData.bathrooms}
+                                  bedrooms={infoWindowData.bedrooms}
+                                  price={infoWindowData.price}
+                                  address={infoWindowData.address}
+                                  property_banner={
+                                    infoWindowData.property_banner
+                                  }
+                                  name={infoWindowData.name}
+                                />
+                              </div>
+                            </InfoWindow>
+                          )}
                         </MarkerF>
                       )
                     )}
