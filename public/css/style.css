@@ -548,6 +548,7 @@ position: relative;
 border: 1px solid white;
 }
 .communityImgCont img{
+height: 600px;
 width: 100%;
 object-fit: cover;
 object-position: center;
