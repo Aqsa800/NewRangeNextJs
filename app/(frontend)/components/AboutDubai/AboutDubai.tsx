@@ -1,6 +1,7 @@
 import ContactModel from "../models/contactModel";
 function AboutDubai() {
-  const contactSideText ="An esteemed award-winning real estate brokerage based in Dubai, UAE.";
+  const contactSideText =
+    "An esteemed award-winning real estate brokerage based in Dubai, UAE.";
   return (
     <>
       <section className="bg-light my-5 py-5 p-relative">
@@ -15,7 +16,12 @@ function AboutDubai() {
                     </div>
                     <div className="pb-4">
                       <p className="text-secondary mb-0">
-                      Range International Property Investments is an esteemed award-winning real estate brokerage based in Dubai, UAE. With over two decades of unmatched experience, we have established ourselves as industry leaders, renowned for our exceptional services and deep knowledge of the real estate market locally and internationally.
+                        Range International Property Investments is an esteemed
+                        award-winning real estate brokerage based in Dubai, UAE.
+                        With over two decades of unmatched experience, we have
+                        established ourselves as industry leaders, renowned for
+                        our exceptional services and deep knowledge of the real
+                        estate market locally and internationally.
                       </p>
                     </div>
                     <div className="pb-4">
@@ -296,7 +302,11 @@ function AboutDubai() {
                       </div>
                     </div>
                     <div className="">
-                      <button className="btn btn-blue text-uppercase btn-lg">
+                      <button
+                        className="btn btn-blue text-uppercase btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#enquireNow"
+                      >
                         DOWNLOAD BROCHURE
                       </button>
                     </div>

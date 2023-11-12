@@ -46,7 +46,6 @@ function ContactModel(props) {
         tabIndex={-1}
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
-        ref={contactCloseRef}
       >
         <div className="modal-dialog  modal-dialog-centered modal-lg modalBookMeet ">
           <div className="modal-content">
@@ -56,6 +55,7 @@ function ContactModel(props) {
                 className="bg-transparent border-0"
                 data-bs-dismiss="modal"
                 aria-label="Close"
+                ref={contactCloseRef}
               >
                 <i className="bi bi-x-circle text-primary"></i>
               </button>
