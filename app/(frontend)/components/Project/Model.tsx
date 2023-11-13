@@ -5,8 +5,8 @@ function Modal({ isOpen, onClose, children }) {
     if (!isOpen) return null;
 
     return (
-        <div className="modal-overlay">
-            <div className="modal-content">
+        <div className="pmodal-overlay">
+            <div className="pmodal-content">
                 <button onClick={onClose} className="modal-close-button">
                     Close
                 </button>
