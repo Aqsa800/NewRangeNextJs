@@ -13,7 +13,7 @@ export const generateMetadata = async ({
   params,
 }: Props): Promise<Metadata> => {
   const slug = params.slug;
-  const projectMeta = await fetch(`${process.env.API_HOST}projects/${slug}/meta`,  { cache: "no-store" }) 
+  const projectMeta = await fetch(`${process.env.API_HOST}/projects/${slug}/meta`,  { cache: "no-store" }) 
   .then((res) => res.json())
   .catch((err) => {
     console.log("err", err);
