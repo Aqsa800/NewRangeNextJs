@@ -526,3 +526,6 @@ padding-top: 10px;
   margin: 0px;
   font-weight: 500;
   }
+  .mob-contact-links{
+    display: none;
+  }

@@ -2,8 +2,8 @@ body{
 overflow-x: hidden;
 }
 .PhoneInput {
-    display: flex !important;
-    align-items: center !important;
+display: flex !important;
+align-items: center !important;
 }
 .fw-800 {
 font-weight: 800 !important;
@@ -25,20 +25,20 @@ color: #fefefe !important;
 font: normal normal 700 14px Raleway;
 }
 .btn-blue {
-    background-color: #2f3c6a!important;
-    border-color: #2f3c6a!important;
-    border-radius: 2px !important;
-    padding: 12px 50px !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    color: #fff !important;
+background-color: #2f3c6a!important;
+border-color: #2f3c6a!important;
+border-radius: 2px !important;
+padding: 12px 50px !important;
+font-size: 14px !important;
+font-weight: 600 !important;
+color: #fff !important;
 }
 
 .btn-bluee {
-    background-color: #2f3c6a !important;
-    border-color: #2f3c6a !important;
-    color: #fefefe !important;
-    font: normal normal 700 14px Raleway;
+background-color: #2f3c6a !important;
+border-color: #2f3c6a !important;
+color: #fefefe !important;
+font: normal normal 700 14px Raleway;
 }
 
 .btn-white {
@@ -419,7 +419,7 @@ bottom: -30px;
 } */
 
 .proCircleBox:hover{
-    border: 15px solid #136dae;
+border: 15px solid #136dae;
 }
 .cardInterest {
 border: 0px;
@@ -457,12 +457,12 @@ height: 0px;
 margin-top: 4rem;
 }
 .imgCoverBox{
-    position: relative;
-    width: 100%;
-    height: 100%;
+position: relative;
+width: 100%;
+height: 100%;
 }
 .aboutSectionArea{
-    padding-top: 60px;
+padding-top: 60px;
 }
 .bgAboutDubai {
 background-image: url(../images/aboutDubai.webp);
@@ -517,13 +517,13 @@ flex-direction: column;
 text-align: center;
 }
 .sctionCommunitySubTitle {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 500;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 500;
 }
 .width-auto-fit{
-    width: fit-content !important;
-  }
+width: fit-content !important;
+}
 .projectImgCont {
 position: relative;
 border: 1px solid white;
@@ -576,7 +576,7 @@ position: relative;
 border: 1px solid white;
 }
 .communityImgCont img{
-    height: 600px;
+height: 600px;
 width: 100%;
 object-fit: cover;
 object-position: center;
@@ -597,24 +597,24 @@ justify-content: flex-end;
 background: transparent linear-gradient(180deg, #00000000 80%, #2D3347 100%) 0% 0% no-repeat padding-box;
 }
 .testimonal-line-ellipsis {
-    display: -webkit-box;
-    -webkit-line-clamp: 7; /* Number of lines you want to display */
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .testimonial-container > div {
-    display: flex;
-    align-items: center; /* This will vertically center the content of each div */
+display: -webkit-box;
+-webkit-line-clamp: 7; /* Number of lines you want to display */
+-webkit-box-orient: vertical;  
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.testimonial-container > div {
+display: flex;
+align-items: center; /* This will vertically center the content of each div */
 }
 
 /* Additional styles for specific elements */
 .testimonial-icon {
-    justify-content: center; /* Horizontally center for icons */
+justify-content: center; /* Horizontally center for icons */
 }
 
 .testimonial-text {
-    flex-grow: 1; /* Allows the text to take the available space */
+flex-grow: 1; /* Allows the text to take the available space */
 }
 
 .swiper-pagination-bullet {
@@ -1327,21 +1327,21 @@ height:600px;
 }
 
 .communityhightCardBody{
-    min-height: 100px !important;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+min-height: 100px !important;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 .communityCardBody{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .nearByCommunityCardBody{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .developerCommunityCardBody{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .floorFormbox{
 padding: 10px;
@@ -1556,37 +1556,37 @@ margin-bottom: 15px;
 }
 
 .navbar.bg-white {
-    border-bottom: 1px solid #2379BB /* Example: 2px solid black border */
+border-bottom: 1px solid #2379BB /* Example: 2px solid black border */
 }
 
 .footer {
-    border-top: 1px solid #2379BB /* Example: 2px solid black border */
+border-top: 1px solid #2379BB /* Example: 2px solid black border */
 }
 .instagram-gradient {
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
 .tiktok-gradient {
-    background: linear-gradient(45deg, #010101, #69C9D0, #EE1D52);
+background: linear-gradient(45deg, #010101, #69C9D0, #EE1D52);
 }
 .linkedin-background {
-    background-color: #0077B5;
+background-color: #0077B5;
 }
 #iconRoundBlack:hover{
-    box-shadow: #002db6;
+box-shadow: #002db6;
 }
 .iconRoundBlack {
-    display: inline-block;
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .iconRoundBlack:hover {
-    box-shadow: 0px 0px 10px #888;
-  }
+display: inline-block;
+transition: box-shadow 0.3s ease;
+}
+
+.iconRoundBlack:hover {
+box-shadow: 0px 0px 10px #888;
+}
 .youtube-background {
-    background-color: #FF0000;
+background-color: #FF0000;
 }
 .twitter-background {
-    background-color: #1DA1F2;
+background-color: #1DA1F2;
 }
 
 .react-datepicker__navigation--previous{
@@ -1614,7 +1614,7 @@ border-radius: 0px;
 height: 90px;
 }
 .overlayBg{
-    position: relative;
+position: relative;
 }
 .overlayBg::before{
 content: "";
@@ -1637,13 +1637,13 @@ transform: translate(-50%, -50%);
 z-index: 9;
 }
 .goldenVisa:hover{
-    color: #136dae !important;
+color: #136dae !important;
 }
 .vertical-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Ensure the container takes the full height of its parent */
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%; /* Ensure the container takes the full height of its parent */
 }
 
 .frmTabList{
@@ -1664,13 +1664,13 @@ font-size: 14px;
 font-weight: 600;
 }
 .frmTabList .nav-link:hover{
- color: #117bb9  !important;   
+color: #117bb9  !important;   
 }
 .frmTabList .nav-link.active{
 background-color: #117bb9 !important;
 }
 .frmTabList .nav-link.active:hover{
-    color: #fff !important
+color: #fff !important
 }
 .search-input.frmSearcBar .fa-search{
 position: absolute;
@@ -1681,18 +1681,18 @@ color: #117bb9;
 cursor: pointer;
 }
 .search-input.frmSearcBar input{
-    font-size: 16px;
-    font-weight: 300;
+font-size: 16px;
+font-weight: 300;
 }
 .search-input.frmSearcBar input::-ms-input-placeholder { /* Edge 12-18 */
-    color: #929292;
-    font-family: 300;
-  }
-  
-  .search-input.frmSearcBar input::placeholder {
-    color: #929292;
-    font-family: 300;
-  }
+color: #929292;
+font-family: 300;
+}
+
+.search-input.frmSearcBar input::placeholder {
+color: #929292;
+font-family: 300;
+}
 .swiper-slide .bg-light{
 min-height: 320px;
 }
@@ -1734,21 +1734,21 @@ color: #bfbfbf;
 font-size: 16px;
 }
 #suggestion-box {
-    position: relative;
+position: relative;
 }
 #suggestion {
-    position: absolute;
-    margin-top: 0.5rem;
-    padding: 10px;
-    width: 100%;
-    white-space: nowrap;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+position: absolute;
+margin-top: 0.5rem;
+padding: 10px;
+width: 100%;
+white-space: nowrap;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 .suggestion-link {
-    text-decoration: none;
-    color: #000;
+text-decoration: none;
+color: #000;
 }
 .cntInptField{
 border-radius: 2px;
@@ -1878,25 +1878,25 @@ height: 40px;
 box-shadow: 0px 4px 6px #00000024;
 }
 .btnContentItem.whatsapp{
-    background-color: #64b161 !important;
+background-color: #64b161 !important;
 }
 .btnContentItem.email{
-    background-color:#2f3c6a !important;
+background-color:#2f3c6a !important;
 }
 .fixBtnContent .btnContentItem{
-    display: flex;
-    align-items: center;
-    gap: 10px !important;
-    border: 0px;
-    width: fit-content;
-    background-color:#2f3c6a ;
-    color: #fff;
-    font-size: 13px !important;
-    padding: 10px 15px !important;
-    white-space: nowrap;
-    text-transform: uppercase;
-    height: 40px;
-    box-shadow: 0px 4px 6px #00000024;
+display: flex;
+align-items: center;
+gap: 10px !important;
+border: 0px;
+width: fit-content;
+background-color:#2f3c6a ;
+color: #fff;
+font-size: 13px !important;
+padding: 10px 15px !important;
+white-space: nowrap;
+text-transform: uppercase;
+height: 40px;
+box-shadow: 0px 4px 6px #00000024;
 }
 .fixBtnContent .btnContentItem .fa-whatsapp{
 font-size: 30px;
@@ -1913,60 +1913,60 @@ background-color: #64b161;
 display: none;
 }
 .socialfixBar .FxBtn[aria-expanded="true"] .crossSvgIcon{
-    display: block;
-    }
-    .form-check.d-none.d-sm-block .btn.btn-outline-primary:hover{
-    color: #fff !important;
-    }
-    .fileChooseBar{
-        position: relative;
-        width: 100%;
-    }
-    .fileChooseBar p{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 114px;
-        height: 38px;
-        background-color: #117bb9;
-        border-radius: 3px !important;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
+display: block;
+}
+.form-check.d-none.d-sm-block .btn.btn-outline-primary:hover{
+color: #fff !important;
+}
+.fileChooseBar{
+position: relative;
+width: 100%;
+}
+.fileChooseBar p{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 114px;
+height: 38px;
+background-color: #117bb9;
+border-radius: 3px !important;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
 
-    }
-    .text-uppercase.btnTextWt{
-        color: #fff ;
-    }
+}
+.text-uppercase.btnTextWt{
+color: #fff ;
+}
 .card .card-body small{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 .card .card-body{
-    min-height: 180px;
+min-height: 180px;
 }
 .card .card-body a.text-decoration-none h6{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 .socialfixLink{
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    height:50px;
-    border-radius: 100px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5px;
-    text-decoration: none;
+display: flex;
+flex-direction: column;
+width: 50px;
+height:50px;
+border-radius: 100px;
+align-items: center;
+justify-content: center;
+margin-bottom: 5px;
+text-decoration: none;
 }
 .socialfixLink.whatsapp{
 background-color: #64b161;
@@ -1979,55 +1979,104 @@ color: #fff;
 background-color: #2f3c6a;
 }
 .socialfixLink.envelope i{
-    font-size: 22px;
+font-size: 22px;
 }
 .project-body{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .property-body{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .communityPropertyCard{
-    min-height: auto !important;
+min-height: auto !important;
 }
 .projectPropertyCard{
-    min-height: auto !important;
-    text-align: left;
+min-height: auto !important;
+text-align: left;
 }
 .bdrBtn{
-    background-color: unset;
-    border: 1.5px solid #136DAE;
-    padding: 5px 20px;
-    color: #136DAE;
-    transition: 0.3s ease;
-    display: block;
-    font-size: 16px;
-    }
-    .bdrBtn:hover{
-    background-color: #136DAE;
-    color: #fff;
-    box-shadow: 0px 3px 5px #00000052;
-    }
-    .mrAuto{
-        margin: 0 auto;
-    }
-    .twitterIcon{
-        width: 15px;
-        height: 15px;
-        object-fit: contain;
-    }
-    .offcanvas-body .mobItemLink{
-        display: none;
-    }
-    .propertyMobItemLink{
-        display: none;
-    }
-    .lookingForMobileItem{
-        display: none;
-    }
-    #multiSilder .swiper-slide:before {
-        background-color: unset !important;
-    }
-    .largeCloseBtn{
-        font-size: larger;
-    }
+background-color: unset;
+border: 1.5px solid #136DAE;
+padding: 5px 20px;
+color: #136DAE;
+transition: 0.3s ease;
+display: block;
+font-size: 16px;
+}
+.bdrBtn:hover{
+background-color: #136DAE;
+color: #fff;
+box-shadow: 0px 3px 5px #00000052;
+}
+.mrAuto{
+margin: 0 auto;
+}
+.twitterIcon{
+width: 15px;
+height: 15px;
+object-fit: contain;
+}
+.offcanvas-body .mobItemLink{
+display: none;
+}
+.propertyMobItemLink{
+display: none;
+}
+.lookingForMobileItem{
+display: none;
+}
+#multiSilder .swiper-slide:before {
+background-color: unset !important;
+}
+.largeCloseBtn{
+font-size: larger;
+}
+.mobDropdownFlex{
+display: flex;
+gap: 10px;
+}
+.mobDropdownFlex .fltSelect-1{
+width: 130px;
+}
+.mobDropdownFlex .fltSelect-2{
+width: 160px;
+}
+.frmFlexRow{
+display: flex;
+width: 100%;
+justify-content: space-between;
+gap: 20px;
+}
+.frmMainRow{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.proSoearch{
+width: 100%;
+}
+.fltMdlCrossBtn{
+background-color: unset;
+border: 0px;
+}
+.fltMdlCrossBtn svg{
+width: 30px;
+height: 30px;
+object-fit: contain;
+
+}
+.fltMdlCrossBtn svg path{
+fill: #a8a8a8;
+}
+.FilterMdlBar{
+display: none;
+}
+.fltMdTopBar{
+display: none;
+}
+.fltMdTopBar h5{
+color: #010101;
+font-size: 18px;
+font-weight: 500;
+margin: 0px;
+}
