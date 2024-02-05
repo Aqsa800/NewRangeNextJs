@@ -34,6 +34,7 @@ import GallaryModalVideo from "@/app/(frontend)/components/models/GallaryModalVi
 import DownloadProjectPPTModal from "../models/DownloadProjectPPTModal";
 import DownloadProjectSaleOfferModel from '@/app/(frontend)/components/models/DownloadProjectSaleOfferModel'
 import "@/public/css/single-project-view-styles.css";
+import "@/public/css/responsive.css";
 
 import MortgageCalculator from "./MortgageCalculator";
 function SinglePropertyView({ params }) {
@@ -177,7 +178,7 @@ function SinglePropertyView({ params }) {
                       onSwiper={(swiper) => {
                         PropertySwiperRef.current = swiper;
                       }}
-                      className="swiper swiperThumb2"
+                      className="swiper swiperThumb2 swiperThumbnailSlider"
                     >
                       {propertyData?.gallery?.map((image, index) => {
                         return (
@@ -1164,6 +1165,7 @@ function SinglePropertyView({ params }) {
                           <i className="fa fa-envelope"></i>
                           Email
                         </a>
+                       
                       </div>
 
                       <div className="text-center mb-3">
@@ -1624,6 +1626,38 @@ function SinglePropertyView({ params }) {
               </div>
             </div>
           </div>
+          <div className="BtnsflexBar  mob-contact-links">
+                        <a
+                          className="Probtn whatsappBtn "
+                          href={
+                            "https://wa.me/" +
+                            propertyData?.agent?.whatsapp +
+                            "?text=Hi, " +
+                            propertyData?.agent?.name +
+                            " Please let me know more about the following property "+getCurrentUrl() 
+                          }
+                        >
+                          <i className="fa fa-whatsapp"></i>
+                          WHATSAPP
+                        </a>
+                        <a
+                          className="Probtn bg-primary "
+                          href={"mailto:" + propertyData?.agent?.email}
+                        >
+                          <i className="fa fa-envelope"></i>
+                          Email
+                        </a>
+                 
+                        <a
+                           href={"tel:" + propertyData?.agent?.contact}
+                           className="Probtn bg-primary"
+                        >
+                          <img
+                                src="/images/icons/phone.png"
+                                className="proPhoneIcon" />
+                          Call
+                        </a>
+                      </div>
            <div className="socialfixBar">
                 <div className="accordion" id="accordionExample">
                       <div className="accordion-item">
