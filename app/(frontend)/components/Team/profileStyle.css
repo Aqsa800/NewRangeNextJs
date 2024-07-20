@@ -1,0 +1,150 @@
+.profileArea{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.proCardhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 300px;
+    border-bottom: 6px solid #117bb9;
+    padding-bottom: 0px;
+}
+.proCircleImg{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    object-position: top;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 6px solid #fff;
+    margin-bottom: 10px;
+}
+.proCardBody{
+    border-top: 6px solid #fff;    
+    background-color: #117bb9;
+    min-height: 200px;
+   width: 100%;
+}
+
+.prLogoImg{
+    width: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.userInfoDetails{
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -80px;
+}
+.iconBox{
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+}
+.iconBox i{
+    font-size: 22px;
+    color: #117bb9;
+}
+.webIcon{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.infoHoriBox{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+}
+.infoHoriBoxList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 220px;
+}
+.useNmetext{
+    color: #fff;
+    font-size: 30px;
+    line-height: 34px;
+   margin: 0px;
+}
+.userInfoDetails .smText{
+color: #fff;
+font-size: 14px;
+margin-bottom: 30px;
+}
+.infoHoriBox p{
+    color: #fff;
+    font-size: 16px;
+}
+.vertiBoxLit{
+display: flex;
+}
+.vertiBox{
+    flex: 1;
+    border: 1px solid rgb(0 0 0 / 13%);
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+}
+.vertiBox p{
+    color: #404040;
+    font-weight: 500;
+    margin: 0px;
+}
+.vertiBox i{
+font-size: 30px;
+color: #117bb9;
+height: 35px;
+}
+.QRcodeImg{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    display: block;
+}
+.QRcodeBox{
+    width: 100%;
+    padding: 30px;
+}
+.iconBox.bgClr{
+    background-color: #117bb9;
+}
+.socialIconsList{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.socialIconsList .iconBox.bgClr i{
+    color: #fff;
+}
+.socialicon{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    object-position: center;
+}
