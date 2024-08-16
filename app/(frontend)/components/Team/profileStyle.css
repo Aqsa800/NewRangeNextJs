@@ -1,6 +1,6 @@
 .profileArea{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
 }
 .proCardhead{
@@ -37,7 +37,7 @@
 }
 .userInfoDetails{
     width: 100%;
-    max-width: 320px;
+    max-width: 420px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -71,6 +71,7 @@
     align-items: flex-start;
     gap: 10px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .infoHoriBoxList{
     display: flex;
@@ -78,7 +79,7 @@
     align-items: flex-start;
     gap: 20px;
     width: 100%;
-    max-width: 220px;
+    max-width: 100%;
 }
 .useNmetext{
     color: #fff;
@@ -93,7 +94,7 @@ margin-bottom: 30px;
 }
 .infoHoriBox p{
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 .vertiBoxLit{
 display: flex;

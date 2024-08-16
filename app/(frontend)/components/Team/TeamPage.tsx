@@ -41,30 +41,36 @@ function TeamPage() {
                                       <span className="smText">Founder & CEO</span>
 
                                       <div className="infoHoriBoxList">
-                                            <a href="#" className="infoHoriBox">
-                                                  <div className="iconBox">
-                                                      <i className="bi bi-phone"></i>
-                                                  </div>
-                                                  <p className="">+971 55 544 4974</p>
-                                            </a>
-                                            <a href="#" className="infoHoriBox">
-                                                  <div className="iconBox">
-                                                    <i className="bi bi-envelope"></i>
-                                                  </div>
-                                                  <p className="">nitin@range.ae</p>
-                                            </a>
-                                            <a href="#" className="infoHoriBox">
-                                                  <div className="iconBox">
-                                                      <img src="/images/icons/world-icon.svg" alt="web icon" className="webIcon" />
-                                                  </div>
-                                                  <p className="">www.range.ae</p>
-                                            </a>
-                                            <a  href="#" className="infoHoriBox">
-                                                  <div className="iconBox">
-                                                  <i className="bi bi-geo-alt-fill"></i>
-                                                  </div>
-                                                  <p className="">2601 Aspect Tower, Business Bay, United Arab Emirates</p>
-                                            </a>
+                                          <div className="row">
+                                              <div className="col-md-6">
+                                                    <a href="#" className="infoHoriBox">
+                                                          <div className="iconBox">
+                                                              <i className="bi bi-phone"></i>
+                                                          </div>
+                                                          <p className="">+971 55 544 4974</p>
+                                                    </a>
+                                                    <a href="#" className="infoHoriBox">
+                                                          <div className="iconBox">
+                                                            <i className="bi bi-envelope"></i>
+                                                          </div>
+                                                          <p className="">nitin@range.ae</p>
+                                                    </a>
+                                              </div>
+                                              <div className="col-md-6">
+                                                  <a href="#" className="infoHoriBox">
+                                                        <div className="iconBox">
+                                                            <img src="/images/icons/world-icon.svg" alt="web icon" className="webIcon" />
+                                                        </div>
+                                                        <p className="">www.range.ae</p>
+                                                  </a>
+                                                  <a  href="#" className="infoHoriBox">
+                                                        <div className="iconBox">
+                                                        <i className="bi bi-geo-alt-fill"></i>
+                                                        </div>
+                                                        <p className="">2601 Aspect Tower, Business Bay, United Arab Emirates</p>
+                                                  </a>
+                                              </div>
+                                          </div>
                                       </div>
                                  </div>
                           </div>
