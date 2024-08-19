@@ -10,7 +10,39 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 function NewPage() {
   return (
     <>
-             <header>
+             <header className='pageHeaderArea'>
+                  <div className='navigationARea'>
+                       <div className='container'>
+                       <nav className="navbar navbar-expand-lg navbar-light mainNavbar">
+                              <a className="mainLogoLink" href="#">
+                                   <img src='/images/logo_white.png'  className='mainLogo'/>
+                              </a>
+                              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                                   <span className="navbar-toggler-icon"></span>
+                              </button>
+                              <div className="collapse navbar-collapse" id="navbarScroll">
+                                   <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                                        <li className="nav-item">
+                                             <a className="nav-link" href="#">Introduction</a>
+                                        </li>
+                                        <li className="nav-item">
+                                             <a className="nav-link" href="#">Online Viewings</a>
+                                        </li>
+                                        <li className="nav-item">
+                                             <a className="nav-link" href="#">Schedule</a>
+                                        </li>
+                                        <li className="nav-item">
+                                             <a className="nav-link" href="#">About Us</a>
+                                        </li>
+                                        <li className="nav-item">
+                                             <a className="nav-link" href="#">Contact Us</a>
+                                        </li>
+                                   </ul>
+                                   
+                              </div>
+                         </nav>
+                       </div>
+                  </div>
                   <Swiper
                           centeredSlides={true}
                           autoplay={{
@@ -662,6 +694,85 @@ function NewPage() {
                        <img src='/images/banner/map-img-1.png' className='mapImg1 mb-5'/>
                        <img src='/images/banner/map-img-2.png' className='mapImg2'/>
              </section>
+             <section className='bookSection'>
+                       <div className='container'>
+                              <div className='formContentArea'>
+                                   <h2 className='secTitle text-center mxWd50 mb-3 wtText textBold'>Book your Interest</h2>
+                                   <p className="pText wtPtext text-center mb-4">
+                                        Don’t miss the chance to explore Dubai’s finest properties from
+                                        anywhere in the world. Book your online viewing today and take the
+                                        first step towards your dream home or investment in Dubai.
+                                   </p>
+                                   <form className='frmFieldsList'>
+                                         <input type='text' placeholder='Name' className='inputField'/>
+                                         <input type='email' placeholder='Email Address' className='inputField'/>
+                                         <input type='text' placeholder='Phone Number' className='inputField mb-3'/>
+                                         <button className='frmBtn'>SUBMIT</button>
+                                   </form>
+                              </div>
+                       </div>
+             </section>
+             <section className='aboutRangeSection'>
+                       <div className='container'>
+                          <h2 className='secTitle text-center mxWd50 mb-3 textBold'>About Range</h2>
+                          <img src='/images/banner/award-banners.png' className='awardsImg'/>
+                          <p className="pText  text-center mb-4 max800">
+                               Range International Property Investments is an esteemed award-winning 
+                               real estate brokerage based in Dubai, UAE. With over two decades of 
+                               unmatched experience, we have established ourselves as industry 
+                               leaders, renowned for our exceptional services and deep knowledge of
+                              the real estate market locally and internationally.
+                          </p>
+                                  
+                       </div>
+             </section>
+             <footer>
+                    <div className='container footerContainer'>
+                         <div className='row'>
+                                <div className='col-md-5'>
+                                     <div className='ftLogoBox'>
+                                           <a href='#' className='ftLogoLink'>
+                                             <img src="/images/logo.png" alt="Range Internation Property Investments" className="ftlogoImg"  />
+                                               
+                                           </a>
+                                           <div className='ftSocialList'>
+                                                <a href='#' className='socialLink'>
+                                                    <img src="/images/icons/social-icon-1.svg"  className="ftSocailImg"  />
+                                                </a>
+                                                 <a href='#' className='socialLink'>
+                                                    <img src="/images/icons/social-icon-2.svg"  className="ftSocailImg"  />
+                                                </a>
+                                                <a href='#' className='socialLink'>
+                                                    <img src="/images/icons/social-icon-3.svg"  className="ftSocailImg"  />
+                                                </a>
+                                                <a href='#' className='socialLink'>
+                                                    <img src="/images/icons/social-icon-4.svg"  className="ftSocailImg"  />
+                                                </a>
+                                                <a href='#' className='socialLink'>
+                                                    <img src="/images/icons/social-icon-5.svg"  className="ftSocailImg"  />
+                                                </a>
+                                           </div>
+                                     </div>
+                                </div>
+                                <div className='col-md-7'>
+                                     <div className='ftContactList'>
+                                          <a href='#' className='ftTextLink'>
+                                              <img src="/images/icons/whatsapp.png"  className="ftSmSocailImg"  />
+                                              <p>Contact us at +971 50 765 1659 </p>
+                                          </a>
+                                          <a href='#' className='ftTextLink'>
+                                              <img src="/images/icons/mail-icon.png"  className="ftSmSocailImg"  />
+                                              <p>info@range.ae </p>
+                                          </a>
+                                          <a href='#' className='ftTextLink'>
+                                              <img src="/images/icons/location-icon.png"  className="ftSmSocailImg"  />
+                                              <p> 1601, 16th Floor, Control Tower, Motor City, Dubai</p>
+                                          </a>
+                                     </div>
+                                </div>
+                         </div>
+                    </div>
+             </footer>
     </>
   )
 }
