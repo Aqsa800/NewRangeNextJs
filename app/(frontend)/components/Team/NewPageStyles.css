@@ -4,6 +4,7 @@ font-family: "Poppins", sans-serif !important;
 .swiper-slide.sliderItemArea{
 position: relative;
 height: 45vw;
+min-height: 400px;
 }
 .sliderItemArea .headerSliderImg{
 background-size: cover;
@@ -52,6 +53,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-weight: 600;
+transition: all 0.3s;
 }
 .btnsGrpFlex{
 display: flex;
@@ -91,12 +93,17 @@ width: 100%;
 text-decoration: none;
 display: block;
 height: 100%;
+transition: all 0.5s ease-in-out;
+overflow: hidden;
 }
 .imgCard .proImg{
 width: 100%;
 height: 200px;
 background-size: cover;
-
+transition: all 0.5s ease-in-out;
+}
+.imgCard:hover .proImg{
+transform: scale(1.2);
 }
 .crdtextBar{
 background-color: #2879BC;
@@ -105,6 +112,8 @@ padding: 10px 0px;
 display: flex;
 align-items: center;
 justify-content: center;
+position: relative;
+z-index: 1;
 }
 .crdtextBar p{
 color: #fff;
@@ -358,6 +367,7 @@ padding: 0px 80px;
     border: 1px solid #fff;
     display:block;
     margin: 0 auto;
+    transition: all 0.3s;
   }
   .aboutRangeSection{
     padding: 60px 0px;
@@ -403,10 +413,12 @@ padding: 0px 80px;
     width: 22px;
     height: 22px;
     object-fit: contain;
+    position: relative;
+    top: 3px;
   }
   .ftTextLink{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     text-decoration: none;
     margin-bottom: 5px;
@@ -420,7 +432,7 @@ padding: 0px 80px;
   .pageHeaderArea{
     position: relative;
   }
-  .navigationARea{
+  .navigationArea{
 position: absolute;
 top: 20px;
 width: 100%;
@@ -439,3 +451,113 @@ z-index: 9;
     max-width: 200px;
     width: 100%;
   }
+  .mainNavbar .navbar-toggler-icon{
+   background-image: url('/images/icons/menu-toggle-icon.svg');
+  }
+  .mainNavbar .navbar-toggler{
+background-color: #2879BC;
+padding: 3px 6px;
+  }
+  .btnPrimary:hover{
+   background-color: #fff;
+   color: #2879BC  !important;
+  }
+  .frmBtn:hover{
+  background-color: #2879BC;
+  color: #fff;
+  }
+@media (max-width:992px){
+  .navigationArea #navbarScroll{
+    background-color: #fff;
+    margin-top: 5px;
+
+  }
+  .navbar.mainNavbar .navbar-nav .nav-link{ 
+    color: #000;
+    padding-left: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgb(241 241 241);
+  }
+  .navbar.mainNavbar .navbar-nav .nav-item:last-child .nav-link{ 
+    border-bottom: 0px;
+  }
+  .navbar.mainNavbar .navbar-nav{
+    gap: 5px;
+
+  }
+  .mainLogo{
+    max-width: 150px;
+  }
+  
+}
+@media (max-width:768px){
+  .headerContent{
+    max-width: 100%;
+    padding: 0px 20px;
+    margin-top: 20px;
+  }
+  .headerContent h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+  .headerContent p{
+    font-size: 16px;
+  }
+  .secTitle{
+    font-size: 28px;
+  }
+  .h4Lg{
+    font-size: 24px;
+  }
+  .pText{
+    font-size: 14px;
+  }
+  .blog9Img{
+    width: 100%;
+  }
+  .mxWd50{
+    max-width: 100%;
+  }
+  .imgCard{
+    margin-bottom: 20px;
+  }
+  .highlightsSection{
+    height: auto;
+  }
+  .iconsCard h4{
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+  .locationSection {
+    padding-top: 40px;
+  }
+  .locationSection .secTitle{
+   margin-bottom: 30px !important;
+  }
+  .formContentArea .pText.wtPtext {
+    padding: 0px 15px;
+}
+.aboutRangeSection {
+  padding: 40px 0px;
+}
+.ftContactList{
+  padding: 20px;
+}
+.ftTextLink p{
+  font-size: 16px;
+}
+.ftLogoBox{
+  margin: unset;
+  padding-left: 20px;
+}
+.ftLogoLink{
+  max-width: 200px;
+  margin: unset;
+}
+.ftSocialList{
+  justify-content: flex-start;
+}
+.footerContainer{
+  padding: 50px 0px 20px;
+}
+}

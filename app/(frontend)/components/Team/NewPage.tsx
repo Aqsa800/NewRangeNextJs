@@ -11,7 +11,7 @@ function NewPage() {
   return (
     <>
              <header className='pageHeaderArea'>
-                  <div className='navigationARea'>
+                  <div className='navigationArea'>
                        <div className='container'>
                        <nav className="navbar navbar-expand-lg navbar-light mainNavbar">
                               <a className="mainLogoLink" href="#">
@@ -185,15 +185,23 @@ function NewPage() {
                                      
                                       pagination={false}
                                       breakpoints={{
+                                        320: {
+                                             slidesPerView: 1,
+                                             spaceBetween: 0,
+                                           },
                                         640: {
+                                          slidesPerView: 1,
+                                          spaceBetween: 0,
+                                        },
+                                        768: {
                                           slidesPerView: 2,
                                           spaceBetween: 10,
                                         },
-                                        768: {
-                                          slidesPerView: 3,
-                                          spaceBetween: 10,
-                                        },
-                                        1100: {
+                                        992: {
+                                             slidesPerView: 3,
+                                             spaceBetween: 10,
+                                           },
+                                        1200: {
                                           slidesPerView: 4,
                                           spaceBetween: 10,
                                         }
@@ -380,16 +388,24 @@ function NewPage() {
                                       pagination={{
                                         clickable: true,
                                       }}
-                                      breakpoints={{ 
+                                      breakpoints={{
+                                        320: {
+                                             slidesPerView: 1,
+                                             spaceBetween: 0,
+                                           },
                                         640: {
+                                          slidesPerView: 1,
+                                          spaceBetween: 0,
+                                        },
+                                        768: {
                                           slidesPerView: 2,
                                           spaceBetween: 10,
                                         },
-                                        768: {
-                                          slidesPerView: 3,
-                                          spaceBetween: 10,
-                                        },
-                                        1100: {
+                                        992: {
+                                             slidesPerView: 3,
+                                             spaceBetween: 10,
+                                           },
+                                        1200: {
                                           slidesPerView: 4,
                                           spaceBetween: 10,
                                         }
@@ -582,12 +598,16 @@ function NewPage() {
                                         clickable: true,
                                       }}
                                       breakpoints={{ 
+                                        320: {
+                                             slidesPerView: 2,
+                                             spaceBetween: 10,
+                                           },
                                         640: {
-                                          slidesPerView: 2,
+                                          slidesPerView: 3,
                                           spaceBetween: 10,
                                         },
-                                        768: {
-                                          slidesPerView: 3,
+                                        992: {
+                                          slidesPerView: 4,
                                           spaceBetween: 10,
                                         },
                                         1100: {
