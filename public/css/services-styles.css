@@ -1,5 +1,5 @@
 .serviceHeader{
-    height: auto !important;
+height: auto !important;
 }
 .headerImg{
 width: 100%;
@@ -20,21 +20,21 @@ box-shadow:0px 0px 24px #00000017;
 margin-bottom: 30px;
 }
 header {
-    height: 600px;
-}
+height: 600px;
+}    
 .videoMain {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100% !important;
-    object-fit: cover;
-    height: 100% !important;
-    z-index: 0;
-    height: 100%;
-    object-position: top;
-    }
+position: relative;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100% !important;
+object-fit: cover;
+height: 100% !important;
+z-index: 0;
+height: 100%;
+object-position: top;
+}
 .serviceCardImg{
 width: 100%;
 height: 280px;
@@ -125,16 +125,467 @@ font-size: 34px;
 margin-bottom: 30px;
 }
 .bdrBtn {
-    background-color: unset;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 14;
+background-color: unset;
+border: 2px solid #fff;
+color: #fff;
+font-size: 14;
 }
 .bdrBtn.largBtn{
-    font-size: 18px;
+font-size: 18px;
+font-weight: 700;
+width: 200px;
+height: 60px;
+display: block;
+margin: 0 auto;
+}
+.serviceHdrImg{
+width: 100%;
+object-fit: cover;
+}
+.investSection{
+background-image: url('/images/banner/banner-7.png');
+width: 100%;
+background-size: cover;
+padding: 60px 0px 80px;
+background-position: center;
+}
+.banner8{
+width: calc(100% - 200px);
+margin: 80px auto 60px;
+display: block;
+object-fit: contain;
+}
+.text-primary.texWt{
+color: #fff !important;
+}
+.pro9Img{
+width: 100%;
+}
+.benefitItem{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.circleIcon{
+width: 80px;
+height: 80px;
+object-fit: contain;
+}
+.benefitsList{
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding-left: 40px;
+}
+.benefitsList p{
+font-size: 36px;
+color: #fff;
+margin: 0px;
+}
+.btn.whtBtn{
+width: 280px;
+height: 54px;
+font-size: 16px !important;
+padding: 0px !important;
+text-align: center ;
+background-color: #fff !important;
+color: #2879BC !important;
+border: 1px solid #2879BC !important;
+}
+.btn.whtBtn:hover{
+border: 1px solid #fff !important;
+background-color: #2879BC !important;
+color: #fff !important;
+}
+.servicesHeader{
+position: relative;
+height: auto;
+}
+.dubaiSection{
+background-image: url('/images/banner/banner-9.png');
+width: 100%;
+background-size: cover;
+padding: 120px 0px 300px;
+position: relative;
+}
+.sliderImgCrd{
+width: 100%;
+position: relative;
+height:100%;
+display: block;
+}   
+.sliderCrdImg{
+width: 100%;
+min-height: 400px;
+object-fit: cover;
+max-height: 550px;
+}
+.sliderOverlayContent{
+position: absolute;
+left: 0px;
+bottom: 0px;
+width: 100%;
+height: 50%;
+background:  transparent linear-gradient(180deg, #0F245400 0%, #0F2454 100%);
+display: flex;
+align-items: flex-end;
+padding: 20px;
+}
+.sliderOverlayContent p{
+color: #fff;
+margin: 0px;
+font-weight: 500;
+}
+.multiSlider.overflowSlider{
+width: 75vw;
+position: static;
+}
+.sliderclmContent{
+padding-top: 60px;
+}
+.multiSlider.overflowSlider .swiper-pagination-horizontal{
+position: absolute;
+left: 50%;
+width: fit-content;
+bottom: 230px;
+transform: translateX(-50%);
+}
+.multiSlider.overflowSlider .swiper-pagination-horizontal .swiper-pagination-bullet{
+border-radius: 0px;
+background-color: #B1B1B1;
+opacity: 1;
+}
+.multiSlider.overflowSlider .swiper-pagination-horizontal .swiper-pagination-bullet.swiper-pagination-bullet-active{
+width: 70px !important;
+}
+
+.beachfrontSection{
+position: relative;
+width: 100%;
+padding: 60px 0px;
+}
+
+.multiSlider.multipleItemsSlider .swiper-pagination-horizontal .swiper-pagination-bullet{
+border-radius: 0px;
+background-color: #B1B1B1;
+opacity: 1;
+}
+.multiSlider.multipleItemsSlider .swiper-pagination-horizontal .swiper-pagination-bullet.swiper-pagination-bullet-active{
+width: 70px !important;
+}
+.multiSlider.multipleItemsSlider .multiSlider.overflowSlider .swiper-pagination-horizontal{
+width: fit-content;
+bottom: 230px;
+}
+.multiSlider.multipleItemsSlider{
+padding-bottom: 80px;
+}
+.sliderOverlayContent.textCenter p{
+display: block;
+text-align: center;
+width: 100%;
+font-weight: 600;
+}
+.sliderCntntBx{
+position: absolute;
+left: 50%;
+bottom: 24px;
+padding: 20px;
+background-color: #fff;
+width: calc(100% - 48px);
+transform: translateX(-50%);
+text-align: center;
+}
+.sliderCntntBx p{
+color: #136DAE;
+font-weight: 600;
+font-size: 22px;
+}
+.sliderCntntBx .btn-blue{
+padding: 0px  !important;
+width: 260px;
+height: 44px;
+font-size: 14px !important;
+}
+.multiSlider.slider3d{
+padding: 50px 0px 100px;
+width: 100%;
+}
+.multiSlider.slider3d .swiper-slide.swiper-slide-next{
+transform: scale(1.2);
+position: relative;
+z-index: 2;
+}
+.multiSlider.slider3d .swiper-slide .sliderCntntBx{
+display: none;
+}
+.multiSlider.slider3d .swiper-slide.swiper-slide-next .sliderCntntBx{
+display: block;
+
+}
+.multiSlider.slider3d .swiper-slide .sliderCrdImg{
+height: 30vw;
+}
+.exploreSection{
+padding: 60px 0px;
+background-color: #EFF5FF;
+width: 100%;
+}
+.multipleItemsSlider .sliderImgCrd .sliderPtitle{
+position: absolute;
+left: 50%;
+bottom: -28px;
+transform: translateX(-50%);
+background-color: #2879BC;
+color: #fff;
+font-size: 22px;
+width: calc(100% - 120px);
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+margin: 0px;
+}
+.aboutRangeSection{
+padding: 80px 0px;
+}
+.h5MdText{
+color: #136DAE;
+font-size: 20px;
+margin: 0px;
+}
+.iconTextBar{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+.iconTextBar .mdIcon{
+width: 50px;
+height: 50px;
+object-fit: contain;
+object-position: center;
+}
+.gridImgRow{
+    display: flex;
+    gap: 20px;
+}
+.gridImgRow .gridImgClm .gridClmImg{
+width: 100%;
+height: 600px;
+object-fit: cover;
+}
+.gridImgRow .gridImgClm{
+width: 45%;
+position: relative;
+}
+.gridImgRow .gridImgClm.grdSecondClm{
+    width: 55%;
+    padding-top: 60px;
+}
+.h2MdText{
+    font-size: 38px;
+    color: #fff;
     font-weight: 700;
-    width: 200px;
-    height: 60px;
-    display: block;
-    margin: 0 auto;
+}
+.gridImgClm .h2MdText{
+position: absolute;
+left: 0px;
+top:50%;
+text-align: center;
+transform: translateY(-50%);
+margin-top: -60px;
+}
+.aboutRangeContent{
+    padding-left: 20px;
+}
+.h3LgText{
+    font-size: 26px;
+    color:#136DAE;
+    font-weight: 600;
+    text-align: center;
+}
+.slidericonCard{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 10px 15px #00000021;
+    padding: 20px;
+}
+.sldrBoxicon{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+.h3LgText.maxWd{
+    max-width: 220px;
+    margin: 30px auto;
+}
+.multiSlider.multipleItemsSlider.iconCardSlider{
+    padding: 40px 20px;
+}
+.sldBtnsFlexBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.sldcrdimg{
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+.h3MdText{
+    font-size: 20px;
+    color: #136DAE;
+    width: 100%;
+    text-align: center;
+}
+.sliderimageCard .btn.btn-blue{
+width: 100% !important;
+}
+.sliderimageCardContent{
+    padding: 20px;
+}
+.sliderimageCardContent p{
+min-height: 194px;
+}
+.serviceSection{
+    padding: 60px 0px;
+}
+.serviceSection .swiper-pagination-horizontal{
+display: none !important;
+}
+.whyChooseSection .swiper-pagination-horizontal{
+display: none !important;
+}
+.swiper-button-prev.swiperUniquePrev, .swiper-button-next.swiperUniqueNext{
+    background-color: #2879BC;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-prev i, .swiper-button-next i{
+    font-size: 30px !important;
+}
+.simpleArrows .swiper-button-prev.swiperUniquePrev, .simpleArrows .swiper-button-next.swiperUniqueNext{
+background-color: unset;
+}
+.simpleArrows .swiper-button-prev.swiperUniquePrev{
+ left: 10px !important;   
+}
+.simpleArrows .swiper-button-next.swiperUniqueNext{
+right: 10px !important;
+}
+.simpleArrows .swiper-button-prev i, .simpleArrows .swiper-button-next i{
+    font-size: 54px !important;
+    color: #136DAE !important;
+}
+.pageArea{
+    overflow-x: hidden;
+}
+@media (max-width:1600px){
+    .benefitsList p {
+        font-size: 28px;
+    }
+    .sliderOverlayContent p{
+        font-size: 14px;
+    }
+    .sliderCntntBx p{
+        font-size: 18px;
+    }
+    .multipleItemsSlider .sliderImgCrd .sliderPtitle{
+        font-size: 18px;
+    }
+    .h3LgText{
+        font-size: 22px;
+    }
+    .slidericonCard .text-secondary{
+     font-size: 14px;
+    }
+    .h3MdText{
+        font-size: 18px;
+    }
+    .sliderimageCardContent .text-secondary{
+    font-size: 14px;
+    }
+    .sliderimageCardContent p{
+        min-height: 160px;
+    }
+}
+@media (max-width:1200px){
+    
+}
+@media (max-width:992px){
+    .banner8{
+        width: 100%;
+    }
+    .investSection .sctionMdTitle{
+      font-size: 34px;
+    }
+    .benefitsList p {
+        font-size: 20px;
+    }
+    .circleIcon{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width:768px){
+    .investSection{
+        background-color: #147dba;
+        background-image: unset;
+    }
+    .banner8{
+        margin: 0px auto 30px;
+    }
+    .pro9Img{
+        width: 100%;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    .investSection .sctionMdTitle{
+        font-size: 30px;
+    }
+    .benefitsList{
+        padding-left: 0px;
+    }
+    .dubaiSection{
+        padding: 0px 0px 300px;
+    }
+    .dubaiSection .sliderclmContent .btn.btn-blue{
+     margin-bottom: 40px;
+    }
+    .multiSlider.overflowSlider{
+        width: 100%;
+    }
+                          
+    .multipleItemsSlider .sliderImgCrd .sliderPtitle{
+        width: calc(100% - 50px);
+    }
+    .gridImgRow .gridImgClm .gridClmImg{
+       height: 350px; 
+    }
+    .h2MdText{
+        font-size: 22px;
+    }
+    .gridImgRow{
+        margin-bottom: 30px;
+    }
+    .aboutRangeContent {
+        padding-left: 5px;
+    }
+    .serviceHdrImg{
+        min-height: 200px;
+    }
+    .multiSlider.slider3d .swiper-slide.swiper-slide-next{
+     transform: scale(1);
+    }
+    .multiSlider.slider3d .swiper-slide .sliderCntntBx{
+        display: block;
+    }
+    .sliderCntntBx .btn-blue{
+    width: 230px;
+    }
 }
