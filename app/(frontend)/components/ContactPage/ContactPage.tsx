@@ -291,6 +291,31 @@ function ContactPage() {
           </div>
         </div>
       </section>
+      <section>
+              <div className="conatainer">
+                   <div className="contectArea">
+                         <img src="./images/logo.png" className="cLogoimg" />
+
+                         <div className="contactCard">
+                             <img src="./images/banner/contact-img-1.png" className="contactCardImg" />
+                             <a href="#" className="mianBtn" >VISIT OUR WEBSITE</a>
+                         </div>
+                         <div className="contactCard">
+                             <img src="./images/banner/contact-img-2.png" className="contactCardImg" />
+                             <a href="#" className="mianBtn" >CAREER PAGE</a>
+                         </div>
+                         <div className="contactCard">
+                             <img src="./images/banner/contact-img-3.png" className="contactCardImg" />
+                             <a href="#" className="mianBtn" >ABOUT US</a>
+                         </div>
+                         <div className="contactCard">
+                             <img src="./images/banner/contact-img-4.png" className="contactCardImg" />
+                             <a href="#" className="mianBtn" >CONTACT US</a>
+                         </div>
+                   </div>
+                   
+              </div>
+      </section>
       {/* <section className="sectionBanner">
         <div className="container">
           <div className="row">

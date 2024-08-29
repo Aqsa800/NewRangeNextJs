@@ -125,16 +125,16 @@ font-size: 34px;
 margin-bottom: 30px;
 }
 .bdrBtn {
-    background-color: unset;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 14;
+background-color: unset;
+border: 2px solid #fff;
+color: #fff;
+font-size: 14;
 }
 .bdrBtn.largBtn{
-    font-size: 18px;
-    font-weight: 700;
-    width: 200px;
-    height: 60px;
-    display: block;
-    margin: 0 auto;
+font-size: 18px;
+font-weight: 700;
+width: 200px;
+height: 60px;
+display: block;
+margin: 0 auto;
 }
