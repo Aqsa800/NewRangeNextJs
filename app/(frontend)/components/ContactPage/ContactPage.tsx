@@ -295,7 +295,6 @@ function ContactPage() {
               <div className="conatainer">
                    <div className="contectArea">
                          <img src="./images/logo.png" className="cLogoimg" />
-
                          <div className="contactCard">
                              <img src="./images/banner/contact-img-1.png" className="contactCardImg" />
                              <a href="#" className="mianBtn" >VISIT OUR WEBSITE</a>

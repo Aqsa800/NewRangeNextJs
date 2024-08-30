@@ -5,7 +5,7 @@ object-fit: cover;
 object-position: top;
 }
 #contactUsHeader{
-    height: auto !important;
+height: auto !important;
 }
 .mxWdtext{
 max-width: 800px;
@@ -186,27 +186,27 @@ border-radius: 0px;
 
 }
 .accordion-button:not(.collapsed) {
-    color: black;
-    background-color: white;
+color: black;
+background-color: white;
 }
 .contectArea{
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 0px 20px;
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+padding: 0px 20px;
 }
 .cLogoimg{
-    width: 100%;
-    object-fit: contain;
-    padding: 0px 25px;
-    margin-bottom: 30px;
+width: 100%;
+object-fit: contain;
+padding: 0px 25px;
+margin-bottom: 30px;
 }
 .contactCard{
-    position: relative;
-    margin-bottom: 20px;
+position: relative;
+margin-bottom: 20px;
 }
 .contactCardImg{
-    width: 100%;
+width: 100%;
 }
 .mianBtn{
 background-color: #2F3C6A;
@@ -235,5 +235,5 @@ color: #2F3C6A;
 box-shadow:none;
 }
 .contectArea{
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
