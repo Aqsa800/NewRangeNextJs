@@ -1,0 +1,372 @@
+.mainSection{
+overflow-x: hidden;
+}
+.pageHeaderArea{
+position: relative;
+width: 100%;
+height:50vw;
+min-height: 400px;
+}
+.pageHeaderArea.imgHeader .navigationArea{
+position: relative;
+}
+.headerImg{
+width: 100%;
+}
+.pHeaderImg{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+min-height: 400px;
+object-fit: cover;
+object-position: top;
+}
+.navigationArea{
+position: absolute;
+top:0px;
+padding: 20px 0px;
+width: 100%;
+z-index: 9;
+border-bottom: 1px solid #ffffff3b;
+}
+.navbar.mainNavbar .navbar-nav{ 
+width: 100%;
+justify-content: flex-end;
+gap: 20px;
+}
+.navbar.mainNavbar .navbar-nav .nav-link{ 
+color: #fff;
+font-size: 16px;
+}
+.mainLogo{
+max-width: 200px;
+width: 100%;
+}
+.mainNavbar .navbar-toggler-icon{
+background-image: url('/images/icons/menu-toggle-icon.svg');
+
+}
+.mainNavbar .navbar-toggler{
+padding: 0px;
+border: 0px;
+outline: none !important;
+box-shadow: unset !important;
+}
+.simpleBtn{
+width: fit-content;
+padding: 5px 15px;
+background-color: #2879BC;
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+transition: all 0.3s;
+border: 1px solid #2879BC;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.simpleBtn:hover{
+    background-color: #fff;
+    color: #2879BC;
+}
+.mainNavbar .collapse.navbar-collapse {
+    padding-right: 20px;
+}
+.pageHeaderArea.imgHeader .headerContent{
+    position: relative;
+    height: 42vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pageHeaderArea.imgHeader .container{
+position: relative;
+}
+.imgHeader .headerContent h1{
+font-size: 3.7vw;
+line-height: 3.9vw;
+color: #fff;
+margin-bottom: 0px;
+}
+.imgHeader  .headerContent p{
+font-size: 1.9vw;
+color: #fff;
+margin-bottom: 30px;
+}
+.aboutSection{
+padding: 60px 0px;
+}
+.videoElement{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.simpleBtn.lgBtn{
+height: 48px;
+padding: 0px 24px;
+}
+.sctionMdTitle.textDark{
+color: #0E0E0E;
+font-size: 48px;
+}
+.secContent{
+    padding: 50px 0px 50px 30px;
+}
+.secContent .descripText{
+font-size: 22px;
+color: #2879BC;
+text-transform: uppercase;
+}
+
+.h3Title{
+    font-size: 38px;
+    color: #0E0E0E;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.secContent .pMdPrimaryText{
+    font-size: 22px;
+    color: #2879BC;
+    margin-bottom: 10px;
+}
+.clmImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row.ht100{
+    height: 100%;
+}
+.container.bdrContainer{
+padding: 40px 0px;
+border-top: 1px solid #707070;
+}
+.secContent.pad-l-0{
+    padding-left: 0px;
+}
+.pad-r-40{
+    padding-right: 40px;
+}
+.max900{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.awardsImg{
+    width: 100%;
+    max-width: 990px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+    display: block;
+}
+.simpleIconCard {
+    padding:30px 40px 30px 30px;
+    transition: all 0.3s ;
+    border-radius: 4px;
+}
+.simpleIconCard:hover{
+background-color:#F8F8F8;
+}
+.simpleIconCard .crdIcon{
+width: 70px;
+height: 70px;
+object-fit: contain;
+margin-bottom: 15px;
+}
+.simpleIconCard h4{
+font-size: 22px;
+font-weight: 500;
+color: #0E0E0E;
+}
+
+.pad-y-60{
+padding: 60px 0px;
+}
+.ftLogoImg{
+width: 100%;
+max-width: 300px;
+object-fit: contain;
+margin:0px auto 20px;
+display: block;
+}
+.footerContent{
+text-align: center;
+}
+.ftH5Text{
+color: #000000;
+font-size: 24px;
+font-weight: 500;
+margin: 0px;
+}
+.ftPtext{
+color: #2879BC;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+
+.whyChooseSection{
+    padding: 60px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    .navbar.mainNavbar .navbar-nav{
+        gap: 15px;
+    }
+    .navbar.mainNavbar .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .mainLogo {
+        max-width: 180px;
+    }
+}
+@media (max-width:992px){
+.navigationArea #navbarScroll{
+background-color: #fff;
+
+}
+.navbar.mainNavbar .navbar-nav .nav-link{ 
+color: #000;
+padding-left: 15px;
+width: 100%;
+border-bottom: 1px solid rgb(241 241 241);
+}
+.navbar.mainNavbar .navbar-nav .nav-item:last-child .nav-link{ 
+border-bottom: 0px;
+}
+.navbar.mainNavbar .navbar-nav{
+gap: 5px;
+
+}
+.mainLogo{
+max-width: 150px;
+}
+.mainNavbar .simpleBtn{
+position: absolute;
+right: 50px;
+top: 7px;
+}
+.h3Title{
+    font-size: 28px;
+}
+.secContent .descripText{
+    font-size: 17px;
+}
+.secContent .pMdPrimaryText{
+    font-size: 17px;
+}
+.sctionMdTitle.textDark{
+    font-size: 38px;
+}
+.simpleIconCard h4{
+    font-size: 18px;
+}
+.ftH5Text {
+    font-size: 18px;
+}
+.ftPtext{
+    font-size: 16px;
+    line-height: 22px;
+}
+}
+@media (max-width:768px){
+.headerContent{
+max-width: 100%;
+padding: 0px 20px;
+margin-top: 20px;
+}
+.imgHeader .headerContent h1 {
+font-size: 24px;
+line-height: 30px;
+}
+.imgHeader .headerContent p{
+font-size: 16px;
+}
+.secTitle{
+font-size: 28px;
+}
+.h4Lg{
+font-size: 24px;
+}
+.pText{
+font-size: 14px;
+}
+.blog9Img{
+width: 100%;
+}
+.mxWd50{
+max-width: 100%;
+}
+.imgCard{
+margin-bottom: 20px;
+}
+.formContentArea .pText.wtPtext {
+padding: 0px 15px;
+}
+.mainNavbar .simpleBtn {
+    position: absolute;
+    right: 42px;
+    font-size: 11px;
+}
+.mainLogo {
+    max-width: 130px;
+}
+.pageHeaderArea.imgHeader .headerContent{
+  height: 70vw;  
+}
+.sctionMdTitle.textDark{
+    font-size: 32px;
+    margin-bottom: 20px !important;
+}
+.clmImg{
+    width: calc(100% - 15px);
+    display: block;
+    height: 300px;
+    margin: 20px auto !important;
+}
+.ftLogoImg{
+    max-width: 250px;
+}
+.simpleBtn.lgBtn{
+    margin-bottom: 20px;
+}
+.secContent{
+    padding:20px 10px !important;
+}
+.videoElement {
+    width: calc(100% - 10px);
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+.pad-r-40{
+    padding-right: 0px;
+}
+.container.bdrContainer{
+    padding: 0px;
+}
+.simpleBtn.lgBtn{
+    padding: 0px 14px;
+}
+.simpleBtn{
+    font-size: 13px;
+}
+}
